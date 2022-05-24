@@ -6,9 +6,14 @@ The volleyball Federation decided to use an online selling platform for the next
 # Requirements
 
 In this challenge, you are going to develop a **responsive web application** to show stadium seats
-randomly to user and user can select a seat and but a ticket. after buying the ticket
-you should show **another page** that shows the ticket id to the user.
+randomly to user and user can select a seat. The basic application implemented and page designs are ready. You need to complete the application.
 
+
+# What is your task?
+1. Fork and clone this repository. You should complete the "ticket-challenge" angular application.
+2. There are two components in the project. You should complete them according to this document and design files.
+3. Make the implementation responsive.
+4. You should change the color of selected seats after user click. Also, you should log the coordinates of the selected seat.
 
 
 # APIs
@@ -26,17 +31,6 @@ You should use this endpoint to get the list and choose one of the stadium maps 
 Get map detail and show seats
 
 in the response: 1 means reserved, and 0 means seat available to buy
-
-
-* `POST /map/<map_id>/ticket`
-
-
-Buy ticket
-
-
-`x` and `y` are Seat coordinates in the request
-
-
 
 # Implementation details
 
